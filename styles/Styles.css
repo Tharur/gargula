@@ -318,3 +318,33 @@ span{
     border-radius: 100%;
 }
 }
+
+@media ( max-width: 640px ) {
+    .nome-logo{
+        max-width: 50%;
+}
+.logo{
+    display: flex;
+    position: relative;
+    justify-content: left;
+    padding-left: 0% 0% 0% 1%; 
+    
+    
+    }
+
+ .logo img:hover{
+    background-color: #0c0326;
+    border: 1x outset #e494f2 ;
+    border-style: groove;
+    border-radius: 100%;
+    
+}  
+
+.logo img {
+    max-width: 90px;
+    height: auto; 
+    border: 1px outset #e494f2;
+    border-radius: 100%;
+}
+
+}

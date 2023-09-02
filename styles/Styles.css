@@ -260,12 +260,25 @@ span{
     .apresentacao {
         flex-direction: column-reverse;
     }
+    
+    .apresentacao__conteudo{
+        width: auto;
+    }
+    
     .cabecalho{
         gap: 20px;
-        padding:  1% 50% 1% 3% ;
+        padding:  1% 50% 1% 1% ; 
     }
+
+    
+    .cabecalho__menu__link img{
+        max-width: 100%;
+        height: auto;
+        }
+    
+
     .logo img{
-        max-width: 90px;
+        max-width: auto;
         height: auto;
         border: 1px outset #e494f2;
         border-radius: 100%;
@@ -275,5 +288,14 @@ span{
         height: auto;
         border: 5px outset #e494f2;
         border-radius: 50px;   
+    }
+    
+}
+    
+
+@media ( max-width: 850px ) {
+    .nome-logo{
+        max-width: 0px;
 }
 }
+    

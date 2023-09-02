@@ -256,6 +256,7 @@ span{
 @media ( max-width: 1433.33px ) {
     .apresentacao {
         flex-direction: column-reverse;
+        padding: 5%;
     }
     
     .apresentacao__conteudo{
@@ -323,6 +324,15 @@ span{
     .nome-logo{
         max-width: 0px;
 }
+.apresentacao{
+    display: flex;
+    align-items: center;    
+}
+
+.acesso__links{
+    text-align: center
+}
+
 .logo{
     display: flex;
     position: relative;
@@ -346,5 +356,6 @@ span{
     border: 1px outset #e494f2;
     border-radius: 100%;
 }
+ 
 
 }

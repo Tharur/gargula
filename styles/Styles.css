@@ -44,7 +44,7 @@ body {
     position: relative;
     justify-content: left;
     padding-left: 0% 0% 0% 1%; 
-     
+    
     
     }
 
@@ -53,11 +53,12 @@ body {
     border: 1x outset #e494f2 ;
     border-style: groove;
     border-radius: 100%;
+    
 }  
 
 .logo img{
     max-width: 170px;
-    height: auto;
+    height: auto; 
     border: 1px outset #e494f2;
     border-radius: 100%;
 }
@@ -75,12 +76,8 @@ body {
     display: flex;
     gap: 20px;
     padding: 1% 78% 0% 0%;
-    
 }
 
-/* .nome-site{
-    
-} */
 
 .cabecalho__menu__link{
     display: flex;
@@ -278,7 +275,7 @@ span{
     
 
     .logo img{
-        max-width: auto;
+        max-width: 120px ;
         height: auto;
         border: 1px outset #e494f2;
         border-radius: 100%;
@@ -295,7 +292,29 @@ span{
 
 @media ( max-width: 850px ) {
     .nome-logo{
-        max-width: 0px;
+        max-width: 50%;
 }
-}
+.logo{
+    display: flex;
+    position: relative;
+    justify-content: left;
+    padding-left: 0% 0% 0% 1%; 
     
+    
+    }
+
+ .logo img:hover{
+    background-color: #0c0326;
+    border: 1x outset #e494f2 ;
+    border-style: groove;
+    border-radius: 100%;
+    
+}  
+
+.logo img{
+    max-width: 90px;
+    height: auto; 
+    border: 1px outset #e494f2;
+    border-radius: 100%;
+}
+}

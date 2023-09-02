@@ -321,7 +321,7 @@ span{
 
 @media ( max-width: 640px ) {
     .nome-logo{
-        max-width: 50%;
+        max-width: 0px;
 }
 .logo{
     display: flex;
